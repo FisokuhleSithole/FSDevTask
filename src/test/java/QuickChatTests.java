@@ -7,7 +7,7 @@ public class QuickChatTests {
 // all tests for the features will run
     @Test
     public void testUsernameFormatValid() {
-        User user = new User);
+        User user = new User();
         user.username = "abc_";
         assertTrue(user.checkUsername());
     }
